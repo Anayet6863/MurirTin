@@ -1,0 +1,137 @@
+body {
+    /* background: rgb(95, 32, 100);
+    background: radial-gradient(circle, rgba(60,0,65,1) 0%, rgba(54,6,75,1) 0%, rgba(30,30,117,1) 51%, rgba(192,0,255,1) 100%); */
+    /* background-image: linear-gradient(360deg, #020024 0%, #090979 35%, #00d4ff 100%); */
+    /* background: rgb(62, 4, 132);
+    background: linear-gradient(225deg, rgba(62, 4, 132, 1) 46%, rgba(238, 174, 202, 1) 90%, rgba(60, 2, 131, 0.9528186274509804) 98%); */
+    background-color: #f0f0f0; /* Light grey */
+   
+    background-color: #d7eef8; /* Light sky blue */
+    background-color: #d9e6d4; /* Soft green */
+    background-color: #eae7dc; /* Light beige */
+
+
+
+
+
+
+
+
+}
+
+.dropdown-menu {
+    min-width: 200px;
+}
+
+.logo {
+    width: 80px;
+}
+
+#mynetwork {
+    width: 100%;
+    height: 100%;
+    border: 0px solid lightgray;
+}
+
+#container2 {
+    width: 90%;
+    height: 70%;
+    background-color: white;
+
+    display: flex;
+    margin: 0 auto;
+    background-image: url("/img/map.jpg");
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    min-height: 500px;
+    width: 100%;
+    height: 70%;
+    font-size: large;
+
+    border: 0px solid lightgray;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mynetwork2 {
+    width: 100%;
+    height: 100%;
+    border: 0px solid lightgray;
+}
+
+#container1 {
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    background-image: url("/img/map.jpg");
+    display: flex;
+    margin: 0 auto;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#generate-graph {
+    margin: auto;
+    display: block;
+}
+
+
+#solve {
+    margin: auto;
+    display: block;
+
+}
+
+#topText {
+    margin-left: 40%;
+}
+
+#distan {
+    font-size: 25px;
+}
+
+select {
+    cursor: pointer;
+
+    color: rgb(0, 80, 21);
+    border: 1px solid #ccc;
+}
+
+.loader {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #009e4f;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Hide content initially */
+.hidden {
+    visibility: hidden;
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+}
