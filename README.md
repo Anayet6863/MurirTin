@@ -1,4 +1,4 @@
-<div style="display:flex  justify-content:center;">
+<div style="display:flex;">
   <h2>MurirTin</h2> 
 <h6>Authors</h6>
 <div style="display: flex;">
